@@ -1,0 +1,52 @@
+%!TEX program = xelatex
+\documentclass[10pt,mathserif]{beamer}%,aspectratio=169 %画面比例16:9%
+\usepackage{biblatex}
+\usepackage{xmpmulti}
+\usepackage{xeCJK}
+\usepackage{hyperref} % links
+\usepackage{pgfgantt}
+\usetheme[
+ sidebar, xdblue
+ ]{XDUstyle}
+\usepackage{mdframed} 
+\theoremstyle{definition}
+\mdfdefinestyle{theoremstyle}{%
+	linecolor=gray!40,linewidth=.5pt,%
+	backgroundcolor=gray!10,
+	skipabove=8pt,
+	skipbelow=5pt,
+	innerleftmargin=7pt,
+	innerrightmargin=7pt,
+	frametitlerule=true,%
+	frametitlerulewidth=.5pt,
+	frametitlebackgroundcolor=gray!15,
+	frametitleaboveskip=0pt,
+	frametitlebelowskip=0pt,
+	innertopmargin=.4\baselineskip,
+	innerbottommargin=.4\baselineskip,
+	shadow=true,shadowsize=3pt,shadowcolor=black!20,
+	theoremseparator={.},
+}
+%[section]means add the section number in the first place.
+\mdtheorem[style=theoremstyle]{defi}{\hspace{0em}$\blacklozenge$定义}
+\mdtheorem[style=theoremstyle]{solu}{\hspace{0em}$\checkmark$思路}
+
+\title{张彪开题报告标题}
+\subtitle{子标题}
+\institute[中国科学院大学\\生命科学学院]{指导老师：王艳芬} % 中括号部分为导航栏底所用尽可能精简
+\author{张彪}
+\date{2016年07月05日}% 时间可自行设置
+	
+\begin{document}%
+{\xdbg \frame[plain,noframenumbering]{\titlepage}}%首页标题页
+
+%\part{第一部分}
+
+\input{背景.tex}
+\input{第一部分.tex}
+\input{第二部分.tex}
+\input{第三部分.tex}
+\input{总结.tex}
+\input{致谢.tex}
+
+\end{document} 
