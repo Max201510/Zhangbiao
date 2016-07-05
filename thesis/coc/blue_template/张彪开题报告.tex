@@ -49,15 +49,15 @@
 %\part{第一部分}
 \AtBeginSection[]
 {
-		\begin{frame}[noframenumbering]{目录}
-			\tableofcontents[]
-		\end{frame}
 	\begin{frame}[noframenumbering]{目录}
-		\tableofcontents[currentsection]
+		\tableofcontents[subsectionstyle=hide]
+	\end{frame}
+	\begin{frame}[noframenumbering]{目录}
+		\tableofcontents[currentsection,subsectionstyle=hide]
 	\end{frame}
 }
 \input{1.选题背景及研究现状.tex}
-\input{2.主要研究内容.tex}
+%\input{2.主要研究内容.tex}
 \input{3.研究方法、技术路线、实验方案.tex}
 \input{4.研究基础.tex}
 \input{5.研究计划与工作安排.tex}
