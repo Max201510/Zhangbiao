@@ -47,7 +47,15 @@
 {\xdbg \frame[plain,noframenumbering]{\titlepage}}%首页标题页
 
 %\part{第一部分}
-
+\AtBeginSection[]
+{
+		\begin{frame}[noframenumbering]{目录}
+			\tableofcontents[]
+		\end{frame}
+	\begin{frame}[noframenumbering]{目录}
+		\tableofcontents[currentsection]
+	\end{frame}
+}
 \input{1.选题背景及研究现状.tex}
 \input{2.主要研究内容.tex}
 \input{3.研究方法、技术路线、实验方案.tex}
