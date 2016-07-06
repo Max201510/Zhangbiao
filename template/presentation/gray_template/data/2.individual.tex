@@ -1,0 +1,35 @@
+\section{second part}
+\begin{frame}[noframenumbering]{Overview}
+	\tableofcontents[currentsection,hideallsubsections]
+\end{frame}
+
+\subsection{Problem Definition}
+\begin{frame}{\insertsection}
+	How to recommend media data to individual users based on content and context features?
+	\begin{defi}
+		Given a social user $u$, a social item relevance function $f_I$, our context-aware media data recommendation algorithm automatically constructs a user profile $p(u)$, and detects a list of most relevant data, $S_v$, such that for any media data $v_i\in S_v$   and $v_j\notin S_v$, the following condition holds:
+		\begin{equation}
+			f_I(p(u),v_i)\geq f_I(p(u),v_j).
+		\end{equation}
+	\end{defi}
+\end{frame}
+
+\subsection{Possible Solutions}
+\begin{frame}{\insertsection}
+	\begin{solu}
+		Correlation-based feature selection
+	\end{solu}
+	\vspace{0.4cm}
+	\begin{itemize}
+		\item Relevance checking: symmetrical uncertainty($SU$)
+		\setcounter{solu}{0}
+		\item Redundancy removal: propose a new concept feature contribution $FC$
+		\vspace{1em}
+		\begin{enumerate}
+			\setlength\itemsep{1em}
+			\item Global-based algorithm
+			\item Group-based algorithm
+		\end{enumerate}
+	\end{itemize}
+\end{frame}
+
