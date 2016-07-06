@@ -1,0 +1,63 @@
+%!TEX program = xelatex
+\documentclass[10pt,mathserif]{beamer}%,aspectratio=169 %画面比例16:9%
+\usepackage{verbatimbox,color}
+\usepackage{picinpar,graphicx}
+\usepackage{smartdiagram}
+\usesmartdiagramlibrary{additions}
+\usepackage{multicol}
+\usepackage{biblatex}
+\usepackage{xmpmulti}
+\usepackage{xeCJK}
+\usepackage{hyperref} % links
+\usepackage{pgfgantt}
+\usepackage{pdfpages}
+\usetheme[
+ sidebar, xdblue
+ ]{XDUstyle}
+\usepackage{mdframed} 
+\theoremstyle{definition}
+\mdfdefinestyle{theoremstyle}{%
+	linecolor=gray!40,linewidth=.5pt,%
+	backgroundcolor=gray!10,
+	skipabove=8pt,
+	skipbelow=5pt,
+	innerleftmargin=7pt,
+	innerrightmargin=7pt,
+	frametitlerule=true,%
+	frametitlerulewidth=.5pt,
+	frametitlebackgroundcolor=gray!15,
+	frametitleaboveskip=0pt,
+	frametitlebelowskip=0pt,
+	innertopmargin=.4\baselineskip,
+	innerbottommargin=.4\baselineskip,
+	shadow=true,shadowsize=3pt,shadowcolor=black!20,
+	theoremseparator={.},
+}
+%[section]means add the section number in the first place.
+
+
+\title{题目}
+\subtitle{子标题}
+\institute[中国科学院大学\\生命科学学院]{指导老师：某某某} % 中括号部分为导航栏底所用尽可能精简
+\author{作者：某某}
+\date{xxxx年xx月xx日}% 时间可自行设置
+	
+\begin{document}%
+{\xdbg \frame[plain,noframenumbering]{\titlepage}}%首页标题页
+
+%显示目录
+\AtBeginSection[]
+{
+	\begin{frame}[noframenumbering]{目录}
+		\tableofcontents[subsectionstyle=hide]
+	\end{frame}
+	\begin{frame}[noframenumbering]{目录}
+		\tableofcontents[currentsection,subsectionstyle=hide]
+	\end{frame}
+}
+\input{data/1.第一部分.tex}
+\input{data/2.第二部分.tex}
+\input{data/3.第三部分.tex}
+\input{data/致谢.tex}
+
+\end{document} 
