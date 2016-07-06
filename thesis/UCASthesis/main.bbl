@@ -1,0 +1,125 @@
+\begin{thebibliography}{19}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Knuth(1989)]{tex}
+KNUTH D~E.
+\newblock The {\TeX} Book[M].
+\newblock 15th.
+\newblock Reading, MA: Addison-Wesley Publishing Company, 1989.
+
+\bibitem[Goosens et al.(1994)]{companion}
+GOOSENS M, MITTELBACH F, SAMARIN A.
+\newblock The {\LaTeX} Companion[M].
+\newblock Reading, MA: Addison-Wesley Publishing Company, 1994: 112--125.
+
+\bibitem[Gr{\"o}ning et al.(2004)]{ColdSources}
+GR{\"O}NING P, NILSSON L, RUFFIEUX P, et al.
+\newblock Encyclopedia of Nanoscience and Nanotechnology[M].
+\newblock
+\newblock  Vol. 1.[S.l.]: American Scientific Publishers, 2004: 547--579.
+
+\bibitem[Krasnogor(2004)]{Krasnogor2004e}
+KRASNOGOR N.
+\newblock Towards robust memetic algorithms[M]//.
+\newblock HART W, KRASNOGOR N, SMITH J.
+\newblock Recent Advances in Memetic Algorithms.
+\newblock 2004.
+\newblock New York: Springer Berlin Heidelberg, Studies in Fuzziness and Soft
+  Computing, vol. 166.
+
+\bibitem[阎真(2001)]{clzs}
+阎真.
+\newblock
+\newblock 沧浪之水[M].[S.l.]: 人民文学出版社, 2001: 185--207.
+
+\bibitem[班固(1998)]{zjsw}
+班固.
+\newblock 苏武传[M]//.
+\newblock 郑在瀛, 汪超宏, 周文复.
+\newblock 传记散文英华.
+\newblock 1998.
+\newblock 武汉: 湖北人民出版社, 新古文观止丛书, vol. 2.
+
+\bibitem[{Chafik El Idrissi} et al.(1994)]{ELIDRISSI94}
+{Chafik El Idrissi} M, {Roney} A, {Frigon} C, et al.
+\newblock Measurements of total kinetic-energy released to the {$N=2$}
+  dissociation limit of {H}$_2$ --- evidence of the dissociation of very high
+  vibrational {R}ydberg states of {H}$_2$ by doubly-excited states[J].
+\newblock Chemical Physics Letters, 1994, 224(10):260--266.
+
+\bibitem[Mellinger et al.(1996)]{MELLINGER96}
+MELLINGER A, VIDAL C~R, JUNGEN C.
+\newblock Laser reduced fluorescence study of the carbon-monoxide nd triplet
+  {R}ydberg series-experimental results and multichannel quantum-defect
+  analysis[J].
+\newblock J. Chem. Phys., 1996, 104(5):8913--8921.
+
+\bibitem[Shell(2002)]{SHELL02}
+SHELL M.
+\newblock How to Use the {IEEEtran \LaTeX} Class[J].
+\newblock Journal of {\LaTeX} Class Files, 2002, 12(4):100--120.
+
+\bibitem[猪八戒(2005)]{zhubajie}
+猪八戒.
+\newblock 论流体食物的持久保存[D].
+\newblock 北京: 广寒宫大学, 2005.
+
+\bibitem[Jeyakumar(2004)]{metamori2004}
+JEYAKUMAR A~R.
+\newblock Metamori: A library for Incremental File Checkpointing[D].
+\newblock Blacksburg: Virgina Tech, 2004.
+
+\bibitem[沙和尚(2005)]{shaheshang}
+沙和尚.
+\newblock 论流沙河的综合治理[D].
+\newblock 北京: 清华大学, 2005.
+
+\bibitem[Zadok(2001)]{FistSystem01}
+ZADOK E.
+\newblock {FiST: A System for Stackable File System Code Generation}[D].
+\newblock USA: Computer Science Department, Columbia University, 2001.
+
+\bibitem[{IEEE Std 1363-2000}(2000)]{IEEE-1363}
+{IEEE Std 1363-2000}.
+\newblock {IEEE} Standard Specifications for Public-Key Cryptography[M].
+\newblock New York: IEEE, 2000.
+
+\bibitem[Kim et al.(2003)]{DPMG}
+KIM S, WOO N, YEOM H~Y, et al.
+\newblock
+\newblock Design and {I}mplementation of {D}ynamic {P}rocess {M}anagement for
+  {G}rid-enabled {MPICH}[C]//the 10th European PVM/MPI Users' Group Conference.
+\newblock Venice, Italy: [s.n.] , 2003.
+
+\bibitem[Kocher et al.(1999)]{kocher99}
+KOCHER C, JAFFE J, JUN B.
+\newblock Differential Power Analysis[C]//.
+\newblock WIENER M.
+\newblock
+\newblock 1999.
+\newblock Advances in Cryptology ({CRYPTO}~'99).[S.l.]: Springer-Verlag,
+  Lecture Notes in Computer Science, vol. 1666.
+
+\bibitem[Woo et al.(1995)]{NPB2}
+WOO A, BAILEY D, YARROW M, et al.
+\newblock
+\newblock The {NAS} Parallel Benchmarks 2.0[R].[S.l.]: The Pennsylvania State
+  University CiteSeer Archives, 1995.
+\newblock \url{http://www.nasa.org/}.
+
+\bibitem[贾宝玉 et al.(1800)]{cnarticle}
+贾宝玉, 林黛玉, 薛宝钗, et al.
+\newblock 论刘姥姥食量大如牛之现实意义[J].
+\newblock 红楼梦杂谈, 1800, 224:260--266.
+
+\bibitem[王重阳 et al.(2006)]{cnproceed}
+王重阳, 黄药师, 欧阳峰, et al.
+\newblock
+\newblock 武林高手从入门到精通[C]//第~$N$~次华山论剑.
+\newblock 西安, 中国: [s.n.] , 2006.
+
+\end{thebibliography}
