@@ -9,10 +9,10 @@ public class Biao {
 	public static void main(String[] args) {
 
 		
-		String folders = "/home/max/rep/zhang_biao/program/excelProcessViaJava/data";
+		String folders =System.getProperty("user.home")+ "/rep/zhang_biao/program/excelProcessViaJava/data";
 		File folder = new File(folders);
 		File[] listOfFiles = folder.listFiles();
-		Out out = new Out("/home/max/rep/zhang_biao/program/excelProcessViaJava/results.txt");
+		Out out = new Out(System.getProperty("user.home")+"/rep/zhang_biao/program/excelProcessViaJava/results.txt");
 		
 		for (File file : listOfFiles) {
 			ArrayList<String> rel = new ArrayList<String>();
@@ -143,7 +143,7 @@ public class Biao {
 	}
 
 	public  static void ts(ArrayList<String> rel,int hang, int[] lie, String fileName) {
-		String folders = "/home/max/rep/zhang_biao/program/excelProcessViaJava/data/";
+		String folders =System.getProperty("user.home")+ "/rep/zhang_biao/program/excelProcessViaJava/data/";
 		
 		In in = new In(folders + fileName);
 		for (int i = 1; i < hang; i++) {
