@@ -1,0 +1,47 @@
+int aa[] = { 62};
+				
+ts(rel,38, aa, s);
+				
+				
+
+int bb[] = { 52};
+				
+ts(rel,48, bb,s);
+	
+			
+				
+int cc[] = { 54 };
+				
+ts(rel,44,cc,s);
+				
+				
+
+int dd[] = { 46 };
+				
+ts(rel,42, dd,s);
+
+
+
+int ee[] = { 61};
+				
+ts(rel,32, ee, s);
+				
+				
+
+int ff[] = { 51};
+				
+ts(rel,42, ff,s);
+	
+			
+				
+int gg[] = { 53 };
+				
+ts(rel,38,gg,s);
+				
+				
+
+int hh[] = { 45 };
+				
+ts(rel,36, hh,s);
+			
+				

@@ -9,10 +9,10 @@ public class Biao {
 	public static void main(String[] args) {
 
 		
-		String folders =System.getProperty("user.home")+ "/rep/zhang_biao/program/excelProcessViaJava/data";
+		String folders =System.getProperty("user.home")+ "/zhang_biao/program/excelProcessViaJava/data";
 		File folder = new File(folders);
 		File[] listOfFiles = folder.listFiles();
-		Out out = new Out(System.getProperty("user.home")+"/rep/zhang_biao/program/excelProcessViaJava/results.txt");
+		Out out = new Out(System.getProperty("user.home")+"/zhang_biao/program/excelProcessViaJava/results.txt");
 		
 		for (File file : listOfFiles) {
 			ArrayList<String> rel = new ArrayList<String>();
@@ -20,7 +20,7 @@ public class Biao {
 				String s = file.getName();
 				rel.add(file.getName().substring(25, file.getName().length()));
 				
-				int a[] = { 39, 36, 35, 34, 32 };
+				/*int a[] = { 39, 36, 35, 34, 32 };
 				ts(rel,56, a, s);
 				
 				int b[] = { 31, 29, 27 };
@@ -123,7 +123,55 @@ public class Biao {
 				ts(rel,42, hh,s);				
 				
 				int ii[] = { 58 };				
-				ts(rel,41, ii,s);
+				ts(rel,41, ii,s);*/
+int aa[] = { 62};
+				
+ts(rel,38, aa, s);
+				
+				
+
+int bb[] = { 52};
+				
+ts(rel,48, bb,s);
+	
+			
+				
+int cc[] = { 54 };
+				
+ts(rel,44,cc,s);
+				
+				
+
+int dd[] = { 46 };
+				
+ts(rel,42, dd,s);
+
+
+
+int ee[] = { 61};
+				
+ts(rel,32, ee, s);
+				
+				
+
+int ff[] = { 51};
+				
+ts(rel,42, ff,s);
+	
+			
+				
+int gg[] = { 53 };
+				
+ts(rel,38,gg,s);
+				
+				
+
+int hh[] = { 45 };
+				
+ts(rel,36, hh,s);
+			
+				
+
 				
 				for(int kkk=0;kkk<rel.size();kkk++){
 					out.print(rel.get(kkk)+" ");
@@ -143,7 +191,7 @@ public class Biao {
 	}
 
 	public  static void ts(ArrayList<String> rel,int hang, int[] lie, String fileName) {
-		String folders =System.getProperty("user.home")+ "/rep/zhang_biao/program/excelProcessViaJava/data/";
+		String folders =System.getProperty("user.home")+ "/zhang_biao/program/excelProcessViaJava/data/";
 		
 		In in = new In(folders + fileName);
 		for (int i = 1; i < hang; i++) {
