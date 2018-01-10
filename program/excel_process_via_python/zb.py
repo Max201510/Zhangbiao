@@ -52,7 +52,7 @@ for i in range(1,len(id_1)):
             c2w(current_line, data_1[i], data_2[j], sheet_combine)# write two line in table 3
             break
     else:
-        c2w(current_line, data_1[i], [], sheet_combine) # only write table 1 in table 3
+        c2w(current_line, data_1[i], [0 for i in range(1, len(id_2))], sheet_combine) # only write table 1 in table 3
 
 for i in range(0, len(id_2)):
     current_id = id_2[i]
@@ -63,7 +63,7 @@ for i in range(0, len(id_2)):
         blank = []
         blank.append(current_id)
         for j in range(1, len(name_1)):
-            blank.append(" ")
+            blank.append(0)
         c2w(current_line, blank, data_2[i], sheet_combine) # write line in table 3
 
 print(name_1)
