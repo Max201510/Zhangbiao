@@ -1,15 +1,8 @@
 import pandas as pd
-from pandas import ExcelWriter
-from pandas import ExcelFile
 
-# df = pd.read_excel('Yangdai_otutable_unoise3_minsize2.xlsx', sheetname='5')
-df = pd.read_excel('test.xlsx', sheetname='5')
-print('Column headings:')
-print(df.columns)
+pd_1 = pd.read_excel('test.xlsx', sheet_name='1')
+pd_2 = pd.read_excel('test.xlsx', sheet_name='2')
 
-x=df.drop(columns=[13,14], axis=1)
-print(x)
-writer = pd.ExcelWriter('test_write.xlsx')
-x.to_excel(writer, sheet_name='ts', index=False)
-writer.save()
-writer.close()
+print(pd_1.columns)
+print(pd_2.columns)
+print(pd.__version__)
